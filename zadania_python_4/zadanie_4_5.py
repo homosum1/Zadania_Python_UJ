@@ -1,4 +1,4 @@
-# zakładam poprawność danych wejściowych, to znaczy left i right nie wychodzą poza zakres listy
+# zakładam poprawność danych wejściowych, to znaczy left i right nie wychodzą poza zakres listy oraz left < right
 
 def iterative_reverse(L, left, right):    
     iteration_range = (right - left) // 2
