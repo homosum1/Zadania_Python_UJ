@@ -1,11 +1,6 @@
 # zakładam poprawność danych wejściowych, to znaczy left i right nie wychodzą poza zakres listy
 
-def iterative_reverse(L, left, right):
-    if left > right:
-        buf = left
-        left = right
-        right = buf
-    
+def iterative_reverse(L, left, right):    
     iteration_range = (right - left) // 2
     if left == 0:
         iteration_range += 1
